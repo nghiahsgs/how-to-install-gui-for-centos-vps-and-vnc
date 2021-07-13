@@ -1,7 +1,7 @@
 # how-to-install-gui-for-centos-vps-and-vnc
 how to install gui for centos vps and vnc
 
-Open terminal server => Install Server with GUI
+# Open terminal server => Install Server with GUI
 ```
 dnf group list
 dnf groupinstall "Server with GUI"
