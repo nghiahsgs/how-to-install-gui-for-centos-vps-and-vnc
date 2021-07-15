@@ -2,11 +2,19 @@
 how to install gui for centos vps and vnc
 
 # Open terminal server => Install Server with GUI
+
+time4vps only
+```
+dnf remove  qemu-guest-agent-vz
+```
 ```
 dnf update
 dnf group list
 dnf groupinstall "Server with GUI"
 ```
+
+
+
 
 Set graphical.target
 ```
