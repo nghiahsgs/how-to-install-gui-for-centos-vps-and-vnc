@@ -21,6 +21,7 @@ Set graphical.target
 ```
 systemctl set-default graphical.target
 systemctl isolate graphical.target
+reboot
 ```
 
 Install tigervnc-server
